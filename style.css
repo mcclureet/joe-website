@@ -1,11 +1,14 @@
 body {
   font-family: system-ui;
-  background-image: radial-gradient(white, grey);
-  color: #323233;
-  text-align: left;
+  background-image: radial-gradient(#323233, #000);
+  color: white;
+  text-align: center; /* center content for your big name */
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
+  text-align: center;
   font-size: 5rem; /* really big */
   font-weight: 900;
   margin-top: 50px;
@@ -34,24 +37,6 @@ p {
   color: #ddd;
 }
 
-.fa-instagram {
-  background: radial-gradient(circle at 30% 107%,
-    #fdf497 0%, 
-    #fdf497 5%, 
-    #fd5949 45%, 
-    #d6249f 60%, 
-    #285AEB 90%);
-  color: white;           /* icon color */
-  border-radius: 50%;     /* circle shape */
-  padding: 15px;
-  margin: 10px;
-  font-size: 30px;
-  text-decoration: none;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.fa-facebook { background: #1877F2; }
-.fa-tiktok { background: #000000; }
-
 .fa-brands {
   color: white;
   font-size: 30px;
@@ -61,6 +46,19 @@ p {
   text-decoration: none;
   transition: 0.3s;
 }
+
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%, 
+    #fdf497 5%, 
+    #fd5949 45%, 
+    #d6249f 60%, 
+    #285AEB 90%);
+}
+
+.fa-facebook { background: #1877F2; }
+.fa-tiktok { background: #000000; }
+
 
 .fa-brands:hover {
   opacity: 0.8;  /* subtle fade effect */
